@@ -24,7 +24,7 @@
       * postgresql
       * python-psycopg2
       * python-sqlalchemy
-  # For Python (via pip):
+  * For Python (via pip):
       * werkzeug
       * flask
       * oauth2client
