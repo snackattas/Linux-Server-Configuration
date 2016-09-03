@@ -12,7 +12,7 @@
 
 # Software installed
   * I have included the results from `pip list` and `apt list --installed` in this git repo, but I realize those are lists of automatically included packages, and dependencies of packages I explicitly downloaded, so it's hard to tell what I actually did. 
-  *Going through my .bash_history file is a jumbled mess because I often logged in and out of the server and of grader, and I do a lot of directory hopping and `sudo service apache2 restart` to check my configurations.  So I'll list the things I explicitly installed here
+  * Going through my .bash_history file is a jumbled mess because I often logged in and out of the server and of grader, and I do a lot of directory hopping and `sudo service apache2 restart` to check my configurations.  So I'll list the things I explicitly installed here
   * For Ubuntu (via apt-get):
       * Well I didn't download anything new to change the TZ to UTC but I did reconfigure a package with `sudo dpkg-reconfigure tzdata`
       * apache2
