@@ -3,7 +3,9 @@
   * SSH port: 2200
   * url: [http://ec2-52-43-192-233.us-west-2.compute.amazonaws.com/](http://ec2-52-43-192-233.us-west-2.compute.amazonaws.com/)
   * I logged into the server using the udacity_key.rsa, but for practice I generated my own public/private key and used that one instead.  I also disabled root login.  So the private key will be included in this repo.
-      * **the file is id_rsa and the password is BCh%ES23MDb\q\}9**
+  * **grader login info**:
+    *  **Password**: BCh%ES23MDb\q\}9
+    * **ssh private key**: id_rsa (in this github repo)
       * So the signature to get into the server is: `ssh -p 2200 grader@52.43.192.233`
   * My catalog app/the python packages are in a virtualenv, and use .wsgi files and .conf files as a result.   
     * I basically followed this [guide](https://github.com/stueken/FSND-P5_Linux-Server-Configuration) of a fellow Udacity student in building the server, except, without adding many of the extra features he added. 
