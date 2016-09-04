@@ -6,7 +6,7 @@
   * **grader login info**:
     *  **Password**: BCh%ES23MDb\q\}9
     * **ssh private key**: id_rsa (in this github repo)
-      * So the signature to get into the server is: `ssh -p 2200 grader@52.43.192.233`
+  * Command to get into the server is: `ssh -p 2200 grader@52.43.192.233`
   * My catalog app/the python packages are in a virtualenv, and use .wsgi files and .conf files as a result.   
     * I basically followed this [guide](https://github.com/stueken/FSND-P5_Linux-Server-Configuration) of a fellow Udacity student in building the server, except, without adding many of the extra features he added. 
     * I thought putting the catalog in its own virtualenv would be good practice if I ever wanted a single server to share many projects.
